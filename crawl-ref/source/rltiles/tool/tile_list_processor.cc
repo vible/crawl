@@ -8,6 +8,10 @@
 #include <stdlib.h>
 #include <map>
 
+#ifdef WIN32
+ #include <algorithm>
+#endif
+
 using namespace std;
 
 tile_list_processor::tile_list_processor() :

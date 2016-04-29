@@ -5,6 +5,10 @@
 #include <cassert>
 #include "tile.h"
 
+#ifdef WIN32
+ #include <algorithm>
+#endif
+
 tile_page::tile_page() : m_width(1024), m_height(0)
 {
 }

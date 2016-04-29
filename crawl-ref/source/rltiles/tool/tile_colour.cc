@@ -6,6 +6,11 @@
 #ifdef USE_TILE
  #include <png.h>
 #endif
+
+#ifdef WIN32
+#include <algorithm>
+#endif
+
 using namespace std;
 
 tile_colour tile_colour::background(71, 108, 108, 255);

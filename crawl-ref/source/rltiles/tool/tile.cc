@@ -7,6 +7,10 @@
  #include <png.h>
 #endif
 
+#ifdef WIN32
+ #include <algorithm>
+#endif
+
 #include <assert.h>
 
 tile::tile() : m_width(0), m_height(0), m_pixels(nullptr), m_shrink(true)
