@@ -1,0 +1,4 @@
+Visual Studio 2015:
+Remove gzio.c from zlib
+Remove pcre_info.c and pcre_try_flipped.c from pcre
+Add libpng\projects\visualc71\libpng.vcxproj
